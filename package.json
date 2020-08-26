@@ -12,6 +12,7 @@
 	},
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
-		"karma": "karma start"
+		"karma2": "karma start",
+		"karma" : "curl -k https://mylaunchpad-qualz-vip.airbus.com/sap/public/bc/icons/s_s_okay.gif"
 	}
 }
