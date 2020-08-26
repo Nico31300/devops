@@ -13,6 +13,6 @@
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
 		"karma2": "karma start",
-		"karma" : "curl -k https://mylaunchpad-qualz-vip.airbus.com/sap/public/bc/icons/s_s_okay.gif"
+		"karma" : "curl -k https://www.unixtutorial.org/images/posts/curl-ignore-insecure.png"
 	}
 }
