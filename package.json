@@ -12,7 +12,6 @@
 	},
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
-		"karma2": "karma start",
-		"karma" : "echo $HTTP_PROXY"
+		"karma": "karma start"
 	}
 }
