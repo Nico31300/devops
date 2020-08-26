@@ -13,6 +13,6 @@
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
 		"karma2": "karma start",
-		"karma" : "curl -k https://www.unixtutorial.org/images/posts/curl-ignore-insecure.png"
+		"karma" : "echo $HTTP_PROXY"
 	}
 }
