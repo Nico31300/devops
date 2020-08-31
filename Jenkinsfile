@@ -11,6 +11,10 @@ node() {
 		  	    runCommand : "npm run karma"
     }*/
 	
+    stage('build') {
+        mtaBuild script: this
+    }
+	
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
             script: this,
