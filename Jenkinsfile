@@ -5,11 +5,11 @@ node() {
         setupCommonPipelineEnvironment script:this
     }
     
-    stage('Test')   {
+    /*stage('Test')   {
 	  karmaExecuteTests script: this,
 		            installCommand: "npm install --quiet",
 		  	    runCommand : "npm run karma"
-    }
+    }*/
 	
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
