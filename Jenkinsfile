@@ -9,11 +9,11 @@ node() {
 	  karmaExecuteTests script: this,
 		            installCommand: "npm install --quiet",
 		  	    runCommand : "npm run karma"
-    }*/
+    }
 	
     stage('build') {
         mtaBuild script: this
-    }
+    }*/
 	
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
