@@ -16,11 +16,11 @@ node() {
 		     buildTool: 'npm',
 		     npmRunScripts: ['build']
     }
+    */
     stage('build') {
         mtaBuild script: this
     }
-    */
-    
+    /*
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
             script: this,
@@ -28,4 +28,5 @@ node() {
             transportRequestId: 'MFEK900086' // typically provided via git commit history
         )
     }
+    */
 }

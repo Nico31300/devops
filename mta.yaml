@@ -9,3 +9,4 @@ modules:
     path: .
     build-parameters: 
       builder: grunt
+      build-result: dest
