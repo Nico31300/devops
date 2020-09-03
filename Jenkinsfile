@@ -12,12 +12,16 @@ node() {
 		  	    runCommand : "npm run karma"
     }
     */
+    stage('build'){
+	buildExecute script: this, 
+		     buildTool: 'npm'
+    }
     
     /*
     stage('build') {
         mtaBuild script: this
     }
-    */
+    
     
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
@@ -26,6 +30,6 @@ node() {
             transportRequestId: 'WEAK900370' // typically provided via git commit history
         )
     }
-    
+    */
 
 }
