@@ -9,7 +9,7 @@
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
 		"karma": "karma start",
-		"build": "ui5 build --clean-dest --include-task=generateManifestBundle generateCachebusterInfo""
+		"build": "ui5 build --clean-dest --include-task=generateManifestBundle generateCachebusterInfo"
 	},
 	"ui5": {
 	    "dependencies": [
