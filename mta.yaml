@@ -7,4 +7,6 @@ modules:
   - name: com.devops.test
     type: html5
     path: .
-
+    build-parameters: 
+      builder: grunt
+      build-result: dest
