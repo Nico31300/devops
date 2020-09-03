@@ -10,10 +10,10 @@ steps:
   mtaBuild:
     buildTarget: 'NEO'
   transportRequestCreate:
-    developmentSystemId: 'WEA~ABAP/801'
+    developmentSystemId: 'MFE~ABAP/001'
   transportRequestUploadFile:
     abapPackage: 'ZCOMMON'
     applicationDescription: 'Test devops'
     applicationId: 'FIORINW'
     applicationName: 'Z_DEVOPS'
-    filePath: 'com.devops.test/data.zip'
+    filePath: 'devops.zip'
