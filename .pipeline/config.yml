@@ -16,4 +16,4 @@ steps:
     applicationDescription: 'Test devops'
     applicationId: 'FIORINW'
     applicationName: 'Z_DEVOPS'
-    filePath: 'com.devops.test.mtar'
+    filePath: 'data.zip'
