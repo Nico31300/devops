@@ -15,7 +15,7 @@ node() {
     stage('build'){
 	buildExecute script: this, 
 		     buildTool: 'npm',
-		     npmRunScripts: 'build'
+		     npmRunScripts: ['build']
     }
     
     /*
