@@ -3,12 +3,6 @@
 	"version": "2.0.0",
 	"description": "Project description",
 	"devDependencies": {
-		"karma-chrome-launcher" : "latest",
-		"karma-webdriver-launcher" : "latest",
-		"karma-ui5" : "latest",
-		"karma": "^5.1.1",
-		"qunit": "latest",
-		"karma-junit-reporter": "latest"
 	},
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
