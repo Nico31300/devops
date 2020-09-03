@@ -9,5 +9,3 @@ modules:
     path: .
     build-parameters: 
       builder: grunt
-      grunt-opts: 
-         - clean
