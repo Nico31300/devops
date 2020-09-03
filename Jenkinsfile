@@ -13,12 +13,12 @@ node() {
     }
     */
     
-	
+    /*
     stage('build') {
         mtaBuild script: this
     }
+    */
     
-    /*
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
             script: this,
@@ -26,6 +26,6 @@ node() {
             transportRequestId: 'WEAK900370' // typically provided via git commit history
         )
     }
-    */
+    
 
 }
