@@ -11,18 +11,19 @@ node() {
 		            installCommand: "npm install --quiet",
 		  	    runCommand : "npm run karma"
     }
-    */
+    
     stage('build'){
 	buildExecute script: this, 
 		     buildTool: 'npm',
 		     npmRunScripts: ['build']
     }
+    */
     
-    /*
+   
     stage('build') {
         mtaBuild script: this
     }
-    
+     /*
     
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
