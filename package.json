@@ -3,7 +3,7 @@
 	"version": "2.0.0",
 	"description": "Project description",
 	"devDependencies": {
-   		"@sap/ui5-builder-webide-extension": "1.0.14"
+   		"@sap/ui5-builder-webide-extension": "1.0.9"
 	},
 	"scripts": {
 		"karma-cli" : "npm install -g karma-cli",
