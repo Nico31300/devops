@@ -14,5 +14,5 @@ steps:
   transportRequestUploadFile:
     abapPackage: 'ZCOMMON'
     applicationDescription: 'Test devops'
-    applicationId: 'Z_DEVOPS'
+    applicationId: 'FIORINW'
     applicationName: 'Z_DEVOPS'
