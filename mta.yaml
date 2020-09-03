@@ -5,5 +5,9 @@ description: A Hello World sample application
 provider: SAP Sample generator
 modules:
   - name: com.devops.test
-    type: nodejs
+    type: html5
     path: .
+    build-parameters: 
+      builder: grunt
+      grunt-opts: 
+         - clean
