@@ -1,1 +1,7 @@
-
+SAPUI5ApplicationName=Z_DEVOPS
+SAPUI5ApplicationDescription=Test Jenkins
+SAPUI5ApplicationPackage=ZCOMMON
+ExternalCodePage=Cp1252
+AcceptUnixStyleEol=X
+DeltaMode=X
+WorkbenchRequest=DFEK911775
