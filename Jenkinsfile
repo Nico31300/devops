@@ -23,7 +23,7 @@ node() {
 	  
     }
     
-    stage('QUnit tests')   {
+    stage('OPA5 tests')   {
 	  echo "OPA5 tests started..."
 	}
     
