@@ -11,18 +11,12 @@ node() {
 		            installCommand: "npm install --quiet",
 		  	    runCommand : "npm run karma"
     }
-    stage('build'){
-	buildExecute script: this, 
-		     buildTool: 'npm',
-		     npmRunScripts: ['build']
-    }
-    */
     stage('build') {
     	sh "mkdir dist"
         mtaBuild script: this
         sh "cp .Ui5RepositoryUploadParameters ./dist"
     }
-    /*
+    */
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
             script: this,
