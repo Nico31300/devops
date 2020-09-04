@@ -18,7 +18,9 @@ node() {
     }
     */
     stage('build') {
+    	sh 'mkdir dist'
         mtaBuild script: this
+        cp .Ui5RepositoryUploadParameters ./dist
     }
     /*
     stage('uploadToTransportRequest') {
