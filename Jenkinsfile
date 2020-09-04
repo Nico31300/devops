@@ -17,6 +17,20 @@ node() {
         sh "cp .Ui5RepositoryUploadParameters ./dist"
     }
     */
+    
+    stage('QUnit tests')   {
+	  echo "QUnit tests started..."
+	  
+    }
+    
+    stage('QUnit tests')   {
+	  echo "OPA5 tests started..."
+	}
+    
+     stage('build') {
+    	echo "Build started..."
+     }
+    
     stage('uploadToTransportRequest') {
         transportRequestUploadFile(
             script: this,
